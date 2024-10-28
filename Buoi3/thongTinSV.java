@@ -1,4 +1,4 @@
-package BTbuoi3;
+package Buoi3;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package tuan4;
+package buoi4;
 
 public class Mang {
     public static void main(String[] args) {

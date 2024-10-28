@@ -1,8 +1,8 @@
-package tuan4;
+package buoi4;
 
 import java.util.Scanner;
 
-public class Buoi4 {
+public class buoi4 {
     public static void bai4_1() {
         int arr[] = { 3, 5, 8, 10, 14, 25 };
         System.out.print("\nDanh sách các phần tử mảng arr là:  ");
@@ -50,6 +50,7 @@ public class Buoi4 {
         for(int i=0; i<=n;i++){
             if(i%2!=0){
                 System.out.print("\t" + i);
+
             }
         }
     }
