@@ -8,11 +8,11 @@ public class Mang {
         int c[][][] = { { { 5, 2, 3 }, { 4, 5, 6, 8 }, { 7, 7 } }, { { 5, 6, 7, 3 }, { 8, 9 } } };
 
         // hiển thị các phần tử mảng c
-        System.out.println("các phần tử mảng c:  ");
+        System.out.println("cac phan tu mang c:  ");
         for (int i = 0; i < c.length; i++) { // i là mảng 3 chiều c[i][][]
             for (int j = 0; j < c[i].length; j++) { // j là mảng 2 chiều c[i][j][]
                 for (int k = 0; k < c[i][j].length; k++) { // k là mảng 1 chiều c[i][j][k]
-                    System.out.println(c[i][j][k] + " ");
+                    System.out.printf("c[%d][%d][%d] = %d\n",i,j,k, c[i][j][k]);
                 }
             }
         }

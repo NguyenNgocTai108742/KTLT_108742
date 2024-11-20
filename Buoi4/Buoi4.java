@@ -58,7 +58,7 @@ public class buoi4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num;
-        System.out.printf("\nnhập n từ bàn phím");
+        System.out.printf("\nnhap n tu ban phim");
         num = sc.nextInt();
         bai4_1();
         bai4_2();

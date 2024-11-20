@@ -20,17 +20,19 @@ public class Bai5_1 {
         if(min > b)
         min = b;
         return min;
-    }
+    } 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num1, num2;
-        System.out.print("nhập số thứ nhất:  ");
+        System.out.print("nhap so thu nhat:  ");
         num1 = sc.nextInt();
-        System.out.print("nhập số thứ hai:  ");
+        System.out.print("nhap so thu hai:  ");
         num2 = sc.nextInt();
         System.out.printf("\nGiá trị lớn nhất của hai số %d và %d là %d", num1, num2, giaTriLonNhat(num1, num2));
         System.out.printf("\nGiá trị nhỏ nhất của hai số %d và %d là %d", num1, num2, giaTriNhoNhat(num1, num2));
         System.out.printf("\nGiá trị lớn nhất của hai số %d và %d là %d", num1, num2, giaTriLonNhatSoSanh(num1, num2));
-        System.out.printf("\nGiá trị nhỏ nhất của hai số %d và %d là %d", num1, num2, giaTriNhoNhatSoSanh(num1, num2));
-    }
+        System.out.printf("\nGiá trị nhỏ nhất của hai số %d và %d là %d", num1, num2, giaTriNhoNhatSoSanh(num1, num2));   
+    }    
 }
+    
+
